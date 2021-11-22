@@ -1,4 +1,5 @@
-set =gx PATH $HOME/.SpaceVim/bin $PATH
+set -gx PATH $HOME/.SpaceVim/bin $PATH
+set -gx PATH $HOME/.npm-global/bin $PATH
 #GOROOT环境变量设置
 ## set -gx PATH ~/.local/bin $PATH
 ## set -Ux FOO bar
