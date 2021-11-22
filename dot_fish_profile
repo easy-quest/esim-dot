@@ -9,17 +9,13 @@ set -Ux GO111MODULE on
 # 配置 GOPROXY 环境变量
 set -Ux GOPROXY https://goproxy.cn
 #牛云也出了个国内代理 goproxy.cn 方便国内用户更快的访问
-go env -w GO111MODULE=on
-go env -w GOPROXY=https://goproxy.cn,direct
 
 
 set -gx PATH /home/ccc/.local/bin $PATH
 set -gx PATH ~/.npm-global/bin $PATH
 
 function gp
-    git add -A $argv
-    git commit -a $argv
-    git push $argv
+    git add -A;git commit -a;git push $argv;
 end
 
 function venv
@@ -30,3 +26,4 @@ end
 function envrc
   printf "#!/usr/bin/env bash \nsource .venv/bin/activate" > .envrc;direnv allow
 end 
+
