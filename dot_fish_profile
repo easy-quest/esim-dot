@@ -1,0 +1,14 @@
+function gp
+    git add -A $argv
+    git commit -a $argv
+    git push $argv
+end
+
+function venv
+  python -m venv .venv $argv;
+  .venv/bin/python -m pip install -U pip setuptools wheel pip-tools $argv;
+end
+
+function envrc
+  printf "#!/usr/bin/env bash \nsource .venv/bin/activate" > .envrc;direnv allow
+end 
