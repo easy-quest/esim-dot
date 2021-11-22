@@ -1,0 +1,10 @@
+[edit]
+    command = "nvim"
+
+[git]
+    autoCommit = true
+    autoPush = true
+    
+[data]
+	email = "easy-quest@mal.ru"
+	name = "Ivan Yatrebov"
