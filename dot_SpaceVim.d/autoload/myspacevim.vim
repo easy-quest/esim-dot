@@ -11,11 +11,16 @@
     " вы можете определить сопоставления в функции начальной загрузки
     " например, используйте kj для выхода из режима вставки.
     " inoremap kj <Esc>
-" endfunction
+  " endfunction
+
+" function! myspacevim#before() abort
+    " call SpaceVim#custom#SPCGroupName(['G'], '+TestGroup')
+    " call SpaceVim#custom#SPC('nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
+  " endfunction
 function! myspacevim#before() abort
-    call SpaceVim#custom#SPCGroupName(['G'], '+TestGroup')
-    call SpaceVim#custom#SPC('nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
-  endfunction
+    call SpaceVim#custom#LangSPCGroupName('python', ['G'], '+TestGroup')
+    call SpaceVim#custom#LangSPC('python', 'nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
+endfunction
 
 function! myspacevim#after() abort
   " вы можете удалить привязку ключей в функции bootstrap_after
