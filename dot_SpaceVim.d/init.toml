@@ -69,3 +69,7 @@ name = "lang#javascript"
 auto_fix = true
 enable_flow_syntax = true
 format_on_save = true
+
+[[layers]]
+name = 'lang#python'
+enabled_linters = ['python', 'pylint']
