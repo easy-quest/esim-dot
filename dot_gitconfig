@@ -1,5 +1,6 @@
 [user]
 	email = ccc@host.io
 	name = Ivan Yastrebov
+  signingkey = easy-quest@mail.ru
 [core]
 	excludesfile = $HOME/.gitignore_global
