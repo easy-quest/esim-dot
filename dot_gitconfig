@@ -2,4 +2,4 @@
 	email = ccc@host.io
 	name = Ivan Yastrebov
 [core]
-	excludesfile = /home/ccc/.gitignore_global
+	excludesfile = $HOME/.gitignore_global
