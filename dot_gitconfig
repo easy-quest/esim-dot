@@ -3,7 +3,7 @@
 	name = Ivan Yastrebov
   signingkey = easy-quest@mail.ru
 [core]
-	excludesfile = /home/ccc/.gitignore_global
+	excludesFile = /home/ccc/.gitignore
 [gpg]
 	program = /usr/bin/gpg2
 [init]
