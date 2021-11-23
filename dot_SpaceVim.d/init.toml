@@ -72,7 +72,16 @@ format_on_save = true
 
 [[layers]]
 name = 'lang#python'
+# python_interpreter = 'D:\scoop\shims\python.exe'
 enabled_linters = ['python', 'pylint']
+# enable_typeinfo = true
+format_on_save = true
+python_file_head = [
+    '#!/usr/bin/env python',
+    '# -*- coding: utf-8 -*-',
+    '',
+    ''
+]
 
 [[layers]]
 name = 'lsp'
