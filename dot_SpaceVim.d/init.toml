@@ -63,3 +63,6 @@ name = 'VersionControl'
 
 [[layers]]
 name = "lang#toml"
+
+[[layers]]
+name = 'lang#javascript'
