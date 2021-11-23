@@ -30,3 +30,4 @@ function envrc
   printf "#!/usr/bin/env bash \nsource .venv/bin/activate" > .envrc;direnv allow
 end 
 
+abbr pi ".venv/bin/python -m pip install -U $argv"
