@@ -4,3 +4,5 @@
   signingkey = easy-quest@mail.ru
 [core]
 	excludesfile = $HOME/.gitignore_global
+[gpg]
+	program = /usr/bin/gpg2
