@@ -53,11 +53,14 @@ default_height = 30
 
 [[layers]]
 name = "fzf"
+
 [[layers]]
 name = "denite"
 
 [[layers]]
 name = 'git'
+[[layers]]
+name = "github"
 [[layers]]
 name = 'VersionControl'
 
