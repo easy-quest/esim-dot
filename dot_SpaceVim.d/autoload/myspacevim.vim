@@ -17,12 +17,19 @@
     " call SpaceVim#custom#SPCGroupName(['G'], '+TestGroup')
     " call SpaceVim#custom#SPC('nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
   " endfunction
-function! myspacevim#before() abort
-    call SpaceVim#custom#LangSPCGroupName('python', ['G'], '+TestGroup')
-    call SpaceVim#custom#LangSPC('python', 'nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
-endfunction
 
-function! myspacevim#after() abort
+" function! myspacevim#before() abort
+    " call SpaceVim#custom#LangSPCGroupName('python', ['G'], '+TestGroup')
+    " call SpaceVim#custom#LangSPC('python', 'nore', ['G', 't'], 'echom 1', 'echomessage 1', 1)
+" endfunction
+
+" function! myspacevim#after() abort
   " вы можете удалить привязку ключей в функции bootstrap_after
-  iunmap kj
-endfunction
+  " iunmap kj
+" endfunction
+
+func! myspacevim#before() abort
+  "other configs
+  let g:github_dashboard = { 'username': 'yourgithubuser', 'password': $GITHUB_TOKEN }
+  let g:gista#client#default_username = 'monkeyxite'
+endf
