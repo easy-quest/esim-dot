@@ -8,3 +8,5 @@
 	program = /usr/bin/gpg2
 [init]
   defaultBranch = master
+[commit]
+	gpgsign = true
