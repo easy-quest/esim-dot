@@ -1,9 +1,9 @@
 [edit]
-    command = "nvim"
+  command = "nvim"
 
 [git]
-    autoCommit = true
-    autoPush = true
+  autoCommit = true
+  autoPush = true
     
 [data]
 	email = "easy-quest@mal.ru"
