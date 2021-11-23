@@ -6,3 +6,5 @@
 	excludesfile = $HOME/.gitignore_global
 [gpg]
 	program = /usr/bin/gpg2
+[init]
+  defaultBranch = master
