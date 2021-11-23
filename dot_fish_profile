@@ -22,7 +22,7 @@ end
 
 function venv
   python -m venv .venv $argv;
-  .venv/bin/python -m pip install -U pip setuptools wheel pip-tools $argv;
+  .venv/bin/python -m pip install -U pip setuptools wheel pip-tools yapf autoflake isort coverage $argv;
 end
 
 function envrc
