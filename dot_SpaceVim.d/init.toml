@@ -102,3 +102,6 @@ bash_file_head = [
 [[layers]]
 name = 'lsp'
 enabled_clients = ['pyright']
+
+[[layers]]
+name = "format"
