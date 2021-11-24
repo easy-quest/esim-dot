@@ -82,11 +82,11 @@ format_on_save = true
 python_file_head = [
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
-    """
-    Created on $date
-
-    @author: $USER,
-    """,
+    '"""',
+    'Created on $date',
+    '',
+    '@author: $USER',
+    '"""',
     '',
     ''
 ]
