@@ -34,3 +34,5 @@ end
 abbr pi ".venv/bin/python -m pip install -U $argv"
 abbr rm "rm -Rf $argv"
 abbr xx "chmod +x $argv"
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
