@@ -101,7 +101,7 @@ bash_file_head = [
     '# Copyright (c) 2050 @EasyQuest',
     '# Author: Ivan Yastrebov < easy-quest@mail.ru >',
     '# URL: https://easy-quest.github.io/web/',
-    '# `eval date +%s` $(date)',
+    '# `eval date +%s`',
     '#=============================================================================',
     '',
     '',
