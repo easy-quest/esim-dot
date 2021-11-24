@@ -93,6 +93,7 @@ python_file_head = [
 
 [[layers]]
 name = "lang#sh"
+format_on_save = true
 bash_file_head = [
     '#!/usr/bin/env bash',
     '#=============================================================================',
