@@ -114,4 +114,6 @@ name = "format"
 name = "lang#go"
 [[layers]]
 name = "lang#goby"
+[[layers]]
+name = "lang#livescript"
 
