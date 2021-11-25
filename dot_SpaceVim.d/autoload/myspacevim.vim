@@ -33,5 +33,5 @@ func! myspacevim#before() abort
   "" ~/.vimrc
   let g:chezmoi = "enabled"
   let g:github_dashboard = { 'username': 'easy-quest', 'password': $GITHUB_TOKEN }
-  let g:gista#client#default_username = 'monkeyxite'
+  let g:gista#client#default_username = 'easy-quest'
 endf
