@@ -109,7 +109,6 @@ enabled_clients = ['pyright']
 
 [[layers]]
 name = "format"
-enabled_formater = ["remark", "prettier"]
 
 [[layers]]
 name = "lang#go"
@@ -119,3 +118,5 @@ name = "lang#goby"
 name = "lang#livescript"
 [[layers]]
 name = "lang#markdown"
+enabled_formater = ["remark", "prettier"]
+
