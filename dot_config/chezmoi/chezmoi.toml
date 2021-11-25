@@ -8,3 +8,6 @@
 [data]
 	email = "easy-quest@mal.ru"
 	name = "Ivan Yatrebov"
+
+[diff]
+  exclude = ["scripts"]
