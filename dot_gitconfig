@@ -1,7 +1,8 @@
 [user]
 	email = esim.i2p@gmail.com
 	name = Ivan Yastrebov
-  	signingkey = 2382E2B4699A9122
+  	# signingkey = 2382E2B4699A9122
+	signingkey = esim.i2p@gmail.com
 [core]
 	excludesFile = /home/ccc/.gitignore
 [gpg]
