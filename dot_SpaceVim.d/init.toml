@@ -119,4 +119,4 @@ name = "lang#livescript"
 [[layers]]
 name = "lang#markdown"
 enabled_formater = ["remark", "prettier"]
-
+enableWcwidth = "Enable"
