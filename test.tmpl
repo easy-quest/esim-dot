@@ -1,0 +1,11 @@
+{{ range (gitHubKeys "user") }}
+{{- .Key }}
+{{ end }}
+
+ /* #### `gitHubLatestRelease` examples */
+
+{{ (gitHubLatestRelease "docker/compose").TagName }}
+
+{{ .chezmoi.version.date  }}
+
+{{ .chezmoi.version.commit }}
