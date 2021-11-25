@@ -1,5 +1,4 @@
 {{ if (eq .chezmoi.osRelease.id "garuda") }} 
-# garuda
 [edit]
   command = "code"
   args = ["--wait"]
@@ -10,15 +9,7 @@
 
 [diff]
   command = "meld"
-  args = ["--diff", "{{ .Destination }}", "{{ .Target }}"]
 
-{{ else if (eq .chezmoi.os "linux" ) }}
-# linux
-{{ else }}
-# other operating system
-[merge]
-  command = "nvim"
-  args = ["-d", "{{ .Destination }}", "{{ .Source }}", "{{ .Target }}"]
 {{ end }}
 
 [git]
