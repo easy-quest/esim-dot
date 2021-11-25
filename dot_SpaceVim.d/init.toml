@@ -53,17 +53,14 @@ default_height = 30
 
 [[layers]]
 name = "fzf"
-
 [[layers]]
 name = "denite"
-
 [[layers]]
 name = 'git'
 [[layers]]
 name = "github"
 [[layers]]
 name = 'VersionControl'
-
 [[layers]]
 name = "lang#toml"
 
@@ -112,3 +109,6 @@ enabled_clients = ['pyright']
 
 [[layers]]
 name = "format"
+
+[[layers]]
+name = "lang#go"
