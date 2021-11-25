@@ -122,3 +122,5 @@ enabled_formater = ["remark", "prettier"]
 enableWcwidth = "Enable"
 format_on_save = true
 
+[[layers]]
+name = "lang#perl"
