@@ -1,7 +1,8 @@
 {{ if (eq .chezmoi.osRelease.id "garuda") }} 
 # garuda
 [edit]
-  command = "nvim"
+  command = "code"
+  args = ["--wait"]
 
 [data]
 	email = "easy-quest@mal.ru"
