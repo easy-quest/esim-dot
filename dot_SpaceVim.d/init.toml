@@ -37,7 +37,7 @@
 
 # add custom_plugins: https://github.com/mhartington/oceanic-next
 [[custom_plugins]]
-repo = "mhartington/oceanic-next"
+repo = "Lilja/vim-chezmoi"
 merged = 0
 
 # Enable autocomplete layer
