@@ -1,12 +1,12 @@
 [user]
-	email = ccc@host.io
+	email = esim.i2p@gmail.com
 	name = Ivan Yastrebov
-  signingkey = 2382E2B4699A9122
+  	signingkey = 2382E2B4699A9122
 [core]
 	excludesFile = /home/ccc/.gitignore
 [gpg]
 	program = /usr/bin/gpg2
 [init]
-  defaultBranch = master
+  	defaultBranch = master
 [commit]
 	gpgsign = true
