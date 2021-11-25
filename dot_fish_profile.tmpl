@@ -1,5 +1,6 @@
 {{ if (eq .chezmoi.osRelease.id "garuda") }} 
 
+set -Ux GPG_TTY (tty)
 set -Ux EDITOR "code --wait"
 
 set -Ux VAULT_ADDR 'http://127.0.0.1:8200'
