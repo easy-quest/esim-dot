@@ -120,3 +120,5 @@ name = "lang#livescript"
 name = "lang#markdown"
 enabled_formater = ["remark", "prettier"]
 enableWcwidth = "Enable"
+format_on_save = true
+
