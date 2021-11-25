@@ -1,3 +1,11 @@
+{{ if (eq .chezmoi.os "garuda") }}
+# darwin
+{{ else if (eq .chezmoi.os "linux" ) }}
+# linux
+{{ else }}
+# other operating system
+{{ end }}
+
 [edit]
   command = "nvim"
 
