@@ -1,21 +1,25 @@
-{{ if (eq .chezmoi.os "garuda") }}
-# darwin
-{{ else if (eq .chezmoi.os "linux" ) }}
-# linux
-{{ else }}
-# other operating system
-{{ end }}
-
+{{ if (eq .chezmoi.osRelease.id "garuda") }} 
+# garuda
 [edit]
   command = "nvim"
 
-[git]
-  autoCommit = true
-  autoPush = true
-    
 [data]
 	email = "easy-quest@mal.ru"
 	name = "Ivan Yatrebov"
 
 [diff]
-  exclude = ["scripts"]
+  command = "meld"
+  args = ["--diff", "{{ .Destination }}", "{{ .Target }}"]
+
+{{ else if (eq .chezmoi.os "linux" ) }}
+# linux
+{{ else }}
+# other operating system
+[merge]
+  command = "nvim"
+  args = ["-d", "{{ .Destination }}", "{{ .Source }}", "{{ .Target }}"]
+{{ end }}
+
+[git]
+  autoCommit = true
+  autoPush = true
