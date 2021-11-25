@@ -109,6 +109,7 @@ enabled_clients = ['pyright']
 
 [[layers]]
 name = "format"
+enabled_formater = ["remark", "prettier"]
 
 [[layers]]
 name = "lang#go"
