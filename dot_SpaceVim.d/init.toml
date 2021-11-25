@@ -117,4 +117,5 @@ name = "lang#go"
 name = "lang#goby"
 [[layers]]
 name = "lang#livescript"
-
+[[layers]]
+name = "lang#markdown"
