@@ -11,6 +11,7 @@ set -gx PATH $HOME/.npm-global/bin $PATH
 set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
 set -Ux GOPATH /home/ccc/go/
+set -Ux GOBIN $GOPATH/bin 
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
 # 配置 GOPROXY 环境变量
