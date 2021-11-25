@@ -124,3 +124,6 @@ format_on_save = true
 
 [[layers]]
 name = "lang#perl"
+
+[[layers]]
+name = "lang#tmpl"
