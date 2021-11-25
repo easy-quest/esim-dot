@@ -1,7 +1,7 @@
 [user]
 	email = ccc@host.io
 	name = Ivan Yastrebov
-  signingkey = easy-quest@mail.ru
+  signingkey = 2382E2B4699A9122
 [core]
 	excludesFile = /home/ccc/.gitignore
 [gpg]
