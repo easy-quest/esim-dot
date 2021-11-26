@@ -126,3 +126,12 @@ name = "lang#tmpl"
 
 [[layer]]
 name = "lang#ruby"
+format_on_save = true
+enabled_linters = ['rubylint', 'rubocop']
+repl_command = "/usr/bin/pry"
+ruby_file_head = [
+    '#!/usr/bin/ruby -w',
+    '# -*- coding: utf-8 -*-',
+    '',
+    ''
+]
