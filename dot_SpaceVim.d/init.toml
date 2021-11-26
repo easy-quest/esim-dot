@@ -80,7 +80,7 @@ ruby_file_head = [
     ''
 ]
 enabled_linters = ['rubylint', 'rubocop']
-repl_command = "pry"
+repl_command = "/usr/bin/pry"
 
 [[layers]]
 name = 'lang#python'
