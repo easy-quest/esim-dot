@@ -3,6 +3,8 @@
 set -Ux GPG_TTY (tty)
 set -Ux EDITOR "code --wait"
 
+set -gx PATH /home/ccc/.local/share/gem/ruby/3.0.0/bin $PATH
+
 set -Ux VAULT_ADDR 'http://127.0.0.1:8200'
 set -gx PATH $HOME/.SpaceVim/bin $PATH
 set -gx PATH $HOME/.npm-global/bin $PATH
