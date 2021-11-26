@@ -79,9 +79,6 @@ format_on_save = true
 python_file_head = [
     '#!/usr/bin/env python3',
     '# -*- coding: utf-8 -*-',
-    '"""',
-    '@ddate',
-    '"""',
     '',
     ''
 ]
@@ -92,11 +89,10 @@ format_on_save = true
 bash_file_head = [
     '#!/usr/bin/env bash',
     '#=============================================================================',
-    '# filename.toml --- bash script',
+    '# filename.sh --- bash script',
     '# Copyright (c) 2050 @EasyQuest',
-    '# Author: Ivan Yastrebov < easy-quest@mail.ru >',
+    '# Author: {{ .name }} < {{ .email }} >',
     '# URL: https://easy-quest.github.io/web/',
-    '# `eval date +%s`',
     '#=============================================================================',
     '',
     '',
@@ -127,3 +123,6 @@ name = "lang#perl"
 
 [[layers]]
 name = "lang#tmpl"
+
+[[layer]]
+name = "lang#ruby"
