@@ -70,6 +70,18 @@ auto_fix = true
 enable_flow_syntax = true
 format_on_save = true
 
+[[layer]]
+name = 'lang#ruby'
+format_on_save = true
+ruby_file_head = [
+    '#!/usr/bin/ruby -w',
+    '# -*- coding: utf-8 -*-',
+    '',
+    ''
+]
+enabled_linters = ['rubylint', 'rubocop']
+repl_command = "pry"
+
 [[layers]]
 name = 'lang#python'
 # python_interpreter = 'D:\scoop\shims\python.exe'
@@ -124,14 +136,3 @@ name = "lang#perl"
 [[layers]]
 name = "lang#tmpl"
 
-[[layer]]
-name = "lang#ruby"
-format_on_save = true
-enabled_linters = ['rubylint', 'rubocop']
-repl_command = "/usr/bin/pry"
-ruby_file_head = [
-    '#!/usr/bin/ruby -w',
-    '# -*- coding: utf-8 -*-',
-    '',
-    ''
-]
