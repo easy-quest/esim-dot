@@ -34,7 +34,7 @@ set -gx PATH /opt/anaconda/bin $PATH
 {{ end }}
 
 function gp
-    set text (date)
+    set text (uname --operating-system), (date)
     git add -A;git commit -m "$text";git push $argv;
 end
 
