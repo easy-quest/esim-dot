@@ -30,7 +30,7 @@ set -gx PATH /opt/anaconda/bin $PATH
 {{ else if (eq .chezmoi.os "linux" ) }}
 # linux
 {{ else }}
-# other operating system
+set -gx LANG ru_RU.UTF-8
 {{ end }}
 
 function gp
@@ -50,6 +50,13 @@ end
 abbr pi ".venv/bin/python -m pip install -U $argv"
 abbr rm "rm -Rf $argv"
 abbr xx "chmod +x $argv"
+
+function ff --description 'Like ** but only returns plain files.'
+    # This also ignores .git directories.
+    find . \( -name .git -type d -prune \) -o -type f | \
+        sed -n -e '/^\.\/\.git$/n' -e 's/^\.\///p'
+end
+
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
