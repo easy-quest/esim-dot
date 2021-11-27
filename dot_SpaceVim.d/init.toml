@@ -100,13 +100,14 @@ name = "lang#sh"
 format_on_save = true
 bash_file_head = [
     '#!/usr/bin/env bash',
+    'cat <<\ZZZ',
     '#=============================================================================',
     '# filename.sh --- bash script',
     '# Copyright (c) 2050 @EasyQuest',
     '# Author: {{ .name }} < {{ .email }} >',
     '# URL: https://easy-quest.github.io/web/',
     '#=============================================================================',
-    '',
+    'ZZZ',
     '',
     ''
 ]
