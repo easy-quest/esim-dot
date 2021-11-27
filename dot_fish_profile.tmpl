@@ -34,7 +34,8 @@ set -gx PATH /opt/anaconda/bin $PATH
 {{ end }}
 
 function gp
-    git add -A;git commit -a;git push $argv;
+    set text (date)
+    git add -A;git commit -m "$text";git push $argv;
 end
 
 function venv
@@ -52,4 +53,3 @@ abbr xx "chmod +x $argv"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-#fffff
