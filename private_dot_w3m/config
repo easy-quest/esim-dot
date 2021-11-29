@@ -111,9 +111,9 @@ nntpserver
 nntpmode 
 max_news 50
 use_proxy 1
-http_proxy 127.0.0.1:9050
-https_proxy 127.0.0.1:9050
-gopher_proxy 127.0.0.1:9050
+http_proxy 
+https_proxy 
+gopher_proxy
 ftp_proxy 
 no_proxy
 noproxy_netaddr 1
