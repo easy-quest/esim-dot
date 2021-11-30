@@ -8,25 +8,25 @@
 
 # All SpaceVim option below [option] section
 [options]
-    enable_language_specific_leader = false
-    windows_smartclose = ''
-    snippet_engine = "neosnippet"
-    # set spacevim theme. by default colorscheme layer is not loaded,
-    # if you want to use more colorscheme, please load the colorscheme
-    # layer
-    colorscheme = "OceanicNext"
-    colorscheme_bg = "dark"
-    # Disable guicolors in basic mode, many terminal do not support 24bit
-    # true colors
-    enable_guicolors = true
-    # Disable statusline separator, if you want to use other value, please
-    # install nerd fonts
-    statusline_separator = "arrow"
-    statusline_iseparator = "arrow"
-    buffer_index_type = 4
-    enable_tabline_filetype_icon = true
-    enable_statusline_mode = false
-    filemanager = "nerdtree"
+enable_language_specific_leader = false
+windows_smartclose = ''
+snippet_engine = "neosnippet"
+# set spacevim theme. by default colorscheme layer is not loaded,
+# if you want to use more colorscheme, please load the colorscheme
+# layer
+colorscheme = "OceanicNext"
+colorscheme_bg = "dark"
+# Disable guicolors in basic mode, many terminal do not support 24bit
+# true colors
+enable_guicolors = true
+# Disable statusline separator, if you want to use other value, please
+# install nerd fonts
+statusline_separator = "arrow"
+statusline_iseparator = "arrow"
+buffer_index_type = 4
+enable_tabline_filetype_icon = true
+enable_statusline_mode = false
+filemanager = "nerdtree"
 
 # [[layers]]
 # name = "colorscheme"
@@ -73,12 +73,7 @@ format_on_save = true
 [[layer]]
 name = 'lang#ruby'
 format_on_save = true
-ruby_file_head = [
-    '#!/usr/bin/ruby -w',
-    '# -*- coding: utf-8 -*-',
-    '',
-    ''
-]
+ruby_file_head = ['#!/usr/bin/ruby -w', '# -*- coding: utf-8 -*-', '', '']
 enabled_linters = ['rubylint', 'rubocop']
 repl_command = "/usr/bin/pry"
 
@@ -88,12 +83,7 @@ name = 'lang#python'
 enabled_linters = ['python', 'pylint']
 # enable_typeinfo = true
 format_on_save = true
-python_file_head = [
-    '#!/usr/bin/env python3',
-    '# -*- coding: utf-8 -*-',
-    '',
-    ''
-]
+python_file_head = ['#!/usr/bin/env python3', n\'# -*- coding: utf-8 -*-', '', '']
 
 [[layers]]
 name = "lang#sh"
@@ -106,7 +96,7 @@ bash_file_head = [
     '# Author: Ivan Yastrebov < esim,i2p@gmail.com >',
     '# URL: https://easy-quest.github.io/web/',
     '#=============================================================================',
-    'cat <<\ZZZ',
+    'bat <<\ZZZ',
     ' _____                 ___                  _',
     '| ____|__ _ ___ _   _ / _ \ _   _  ___  ___| |_',
     '|  _| / _` / __| | | | | | | | | |/ _ \/ __| __|',
@@ -116,7 +106,7 @@ bash_file_head = [
     'ZZZ',
     'read -p "Продолжать? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1',
     '',
-    ''
+    '',
 ]
 
 [[layers]]
@@ -143,4 +133,3 @@ name = "lang#perl"
 
 [[layers]]
 name = "lang#tmpl"
-
