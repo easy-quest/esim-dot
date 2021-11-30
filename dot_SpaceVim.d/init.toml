@@ -99,11 +99,11 @@ python_file_head = [
 name = "lang#sh"
 format_on_save = true
 bash_file_head = [
-    '#!/usr/bin/env bash',
+    '#!/usr/bin/bash',
     '#=============================================================================',
     '# filename.sh --- bash script',
-    '# Copyright (c) 2050 @EasyQuest',
-    '# Author: {{ .name }} < {{ .email }} >',
+    '# Copyright (c) 2052 @EasyQuest',
+    '# Author: Ivan Yastrebov < esim,i2p@gmail.com >',
     '# URL: https://easy-quest.github.io/web/',
     '#=============================================================================',
     'cat <<\ZZZ',
@@ -114,6 +114,7 @@ bash_file_head = [
     '|_____\__,_|___/\__, |\__\_\\__,_|\___||___/\__|',
     '                |___/',
     'ZZZ',
+    'read -p "Продолжать? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1',
     '',
     ''
 ]
