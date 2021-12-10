@@ -31,4 +31,17 @@ sudo apt-get -yq install fish
   {{- if (eq .chezmoi.osRelease.id "fedora") }}
 dnf -yq install fish
   {{- end }}
+  {{- if (eq .chezmoi.osRelease.id "garuda") }}
+yay -S fish -y
+yay -S garuda-fish-config -y
+if -e /etc/skel/.config/fish/config.fish 
+  echo "comfirm"
+  cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish
+
+if command -v fish &> /dev/null
+then
+  echo "fish already installed"
+  exit
+end
+  {{- end }}
 {{- end }}
