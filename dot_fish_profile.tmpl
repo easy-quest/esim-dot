@@ -54,8 +54,8 @@ abbr pi ".venv/bin/python -m pip install -U $argv"
 abbr rm "rm -Rf $argv"
 abbr xx "chmod +x $argv"
 
-function ff --description 'Like ** but only returns plain files.'
-    # This also ignores .git directories.
+function ff --description 'Как **, но возвращает только обычные файлы.'
+    # Это также игнорирует каталоги .git.
     find . \( -name .git -type d -prune \) -o -type f | \
         sed -n -e '/^\.\/\.git$/n' -e 's/^\.\///p'
 end
