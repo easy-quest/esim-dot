@@ -4,6 +4,8 @@ set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
+source ~/.asdf/asdf.fish
+
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
    set -x QT_QPA_PLATFORMTHEME "qt5ct"
