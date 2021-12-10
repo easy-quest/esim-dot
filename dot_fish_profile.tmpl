@@ -60,6 +60,8 @@ function ff --description 'Как **, но возвращает только о�
         sed -n -e '/^\.\/\.git$/n' -e 's/^\.\///p'
 end
 
+set -gx PATH $HOME/.asdf/bin $PATH
+
 
 alias zz='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
