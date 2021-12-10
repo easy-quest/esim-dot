@@ -3,13 +3,13 @@
 for abbreviation in (abbr -l)
     abbr -e $abbreviation
 end
-abbr g 'git $argv'
-abbr gf 'git fetch $argv'
-abbr gs 'git status $argv'
-abbr gc 'git commit -m $argv'
-abbr md 'mkdir -p $argv'
-abbr pi '.venv/bin/python -m pip install -U $argv'
-abbr rm 'rm -Rf $argv'
-abbr xx 'chmod +x $argv'
-abbr z 'chezmoi $argv'
-abbr ze 'chezmoi edit --apply $argv'
+abbr g 'git '
+abbr gf 'git fetch '
+abbr gs 'git status '
+abbr gc 'git commit -m '
+abbr md 'mkdir -p '
+abbr pi '.venv/bin/python -m pip install -U '
+abbr rm 'rm -Rf '
+abbr xx 'chmod +x '
+abbr z 'chezmoi '
+abbr ze 'chezmoi edit --apply '
