@@ -4,6 +4,8 @@ set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
+eval (direnv hook fish)
+
 source ~/.asdf/asdf.fish
 
 ## Export variable need for qt-theme
