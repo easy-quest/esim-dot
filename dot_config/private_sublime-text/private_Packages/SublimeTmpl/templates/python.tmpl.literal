@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Date    : ${date}
+# @Author  : ${author} (${email})
+# @Link    : ${link}
+
+${1:import os}
+${2:import random}
+${3:from time import sleep}
+$0
