@@ -1,5 +1,5 @@
 export AMD_VULKAN_ICD=RADV
-export EDITOR=code
+export EDITOR=subl
 export BROWSER=yandex-browser-beta
 export TERM=alacritty
 export MAIL=geary
