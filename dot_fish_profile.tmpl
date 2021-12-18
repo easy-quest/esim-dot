@@ -6,7 +6,7 @@ set -Ux GPG_TTY (tty)
 set -Ux EDITOR "subl"
 set -Ux MYVIMRC "~/.vimrc"
 
-set -gx PATH /home/ccc/.local/share/gem/ruby/3.0.0/bin $PATH
+set -gx PATH $HOME/.local/share/gem/ruby/3.0.0/bin $PATH
 
 set -Ux VAULT_ADDR 'http://127.0.0.1:8200'
 set -gx PATH $HOME/.SpaceVim/bin $PATH
@@ -16,7 +16,7 @@ set -gx PATH $HOME/.npm-global/bin $PATH
 ## set -Ux FOO bar
 set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
-set -Ux GOPATH /home/ccc/go/
+set -Ux GOPATH $HOME/go/
 set -Ux GOBIN $GOPATH/bin 
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
@@ -26,7 +26,7 @@ set -Ux GOPROXY https://goproxy.cn
 
 set -Ux GITHUB_TOKEN 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
 
-set -gx PATH /home/ccc/.local/bin $PATH
+set -gx PATH $HOME/.local/bin $PATH
 set -gx PATH ~/.npm-global/bin $PATH
 set -gx PATH /opt/anaconda/bin $PATH
 # garuda
@@ -42,7 +42,7 @@ function gp
 end
 
 function venv
-  /home/ccc/.asdf/shims/python -m venv .venv $argv;
+  $HOME/.asdf/shims/python -m venv .venv $argv;
   .venv/bin/python -m pip install -U pip setuptools wheel pip-tools yapf autoflake isort coverage $argv;
 end
 
