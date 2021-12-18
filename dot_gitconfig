@@ -2,7 +2,7 @@
 	email = esim.i2p@gmail.com
 	name = Ivan Yastrebov
   	# signingkey = 2382E2B4699A9122
-	signingkey = esim.i2p@gmail.com
+	# bsigningkey = esim.i2p@gmail.com
 [core]
 	excludesFile = $HOME/.gitignore
 [gpg]
@@ -10,4 +10,4 @@
 [init]
   	defaultBranch = main
 [commit]
-	gpgsign = true
+	# gpgsign = true

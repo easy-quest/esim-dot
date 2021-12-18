@@ -6,7 +6,7 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 eval (direnv hook fish)
 
-source ~/.asdf/asdf.fish
+source /opt/asdf-vm/asdf.fish
 
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
