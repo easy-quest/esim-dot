@@ -1,0 +1,283 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"T",
+				"TOKEN"
+			],
+			[
+				"m",
+				"my_secret2"
+			],
+			[
+				"req",
+				"requests"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/ccc/scripts/.gitignore",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Gitignore: New gitignore"
+			],
+			[
+				"lsp",
+				"Tmpl: Create project-specific"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ccc/scripts"
+	],
+	"file_history":
+	[
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/Side Bar.sublime-menu",
+		"/home/ccc/.config/sublime-text/Packages/User/SublimeTmpl/Side Bar.sublime-menu",
+		"/home/ccc/.config/sublime-text/Packages/User/SublimeTmpl.sublime-settings",
+		"/home/ccc/.config/sublime-text/Packages/User/SublimeTmpl/Default.sublime-commands",
+		"/home/ccc/.config/sublime-text/Packages/User/SublimeTmpl/Main.sublime-menu",
+		"/home/ccc/scripts/templates/python.tmpl",
+		"/home/ccc/scripts/template_folder/python.tmpl",
+		"/home/ccc/.config/sublime-text/Packages/User/SublimeTmpl/templates/python.tmpl",
+		"/home/ccc/.config/sublime-text/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/Default.sublime-commands",
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/Default (Linux).sublime-keymap",
+		"/home/ccc/scripts/0.2939292805498377.html",
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/templates/python.tmpl",
+		"/home/ccc/scripts/.gitpod.yml",
+		"/home/ccc/scripts/kubnews.py",
+		"/home/ccc/scripts/macros.py",
+		"/home/ccc/scripts/README.md",
+		"/home/ccc/scripts/source.py",
+		"/home/ccc/scripts/tests.py",
+		"/home/ccc/scripts/links.txt",
+		"/home/ccc/scripts/links_all.py",
+		"/home/ccc/Загрузки/sharck777.json",
+		"/home/ccc/Subl4/Python/vk_bot/4vk-soup/bot/main.py",
+		"/home/ccc/Документы/my-docs/docs/ENv/dot_env_files.md",
+		"/home/ccc/Subl4/Python/vk_bot/4vk-soup/part1.py",
+		"/home/ccc/Subl4/Python/vk_bot/4vk-soup/.gitpod.yml",
+		"/home/ccc/Subl4/Python/vk_bot/4vk-soup/README.md",
+		"/home/ccc/Subl4/Python/vk_bot/.env",
+		"/home/ccc/Subl4/Python/vk_bot/tests/test01.py",
+		"/home/ccc/Subl4/Python/vk_bot/.envrc",
+		"/home/ccc/Subl4/Python/vk_bot/templates/base.py",
+		"/home/ccc/Subl4/Python/vk_bot/templates/base.html",
+		"/home/ccc/.config/sublime-text/Packages/SublimeTmpl/Main.sublime-menu",
+		"/home/ccc/.config/sublime-text/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/ccc/Subl4/Python/vk_bot/pyproject.toml",
+		"/home/ccc/Subl4/Python/vk_bot/.gitignore",
+		"/home/ccc/.local/share/chezmoi/dot_config/chezmoi/chezmoi.toml.tmpl"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<!"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/ccc/scripts/.gitignore",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 222.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "scripts.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

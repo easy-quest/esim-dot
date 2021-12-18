@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"DotENV",
+		"fish",
+		"Gitignore",
+		"Package Control",
+		"Package Coverage",
+		"Python 3",
+		"Python Output Format",
+		"razor-tmpl",
+		"RESTer HTTP Client",
+		"SublimeTmpl",
+		"TOML",
+	],
+}

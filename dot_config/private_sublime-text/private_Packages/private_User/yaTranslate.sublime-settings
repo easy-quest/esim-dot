@@ -1,0 +1,7 @@
+{	
+    "key": "trnsl.1.1.20181026T125315Z.49c91d8dca8f7ffa.7cfa53f7653e27db05ffb2414aa55853df9e1b72",                       // Get a free API key here http://api.yandex.ru/key/form.xml?service=trnsl
+    "ui_lang": "ru",                    // Your locale language 
+    "output_language": "ru",            // The default language for translation
+    "output_language_additional": "en", // Additional language for the translation (if the text matches the language specified in output_language it will be translated into output_language_additional)
+    "type": "text"                      // or "html"
+}

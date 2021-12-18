@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# @Date    : ${date}
+# @Author  : ${author} (${email})
+# @Link    : ${link}
+# @Version : \$Id\$
+
+clear
+echo ${2:"HELLO WORLD"}
+
+$0

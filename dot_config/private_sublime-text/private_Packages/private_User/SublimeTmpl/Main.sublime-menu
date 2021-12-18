@@ -1,0 +1,92 @@
+[
+    {
+        "id": "file",
+        "children":
+        [
+            {
+                "id": "sublimetmpl",
+                "caption": "Новый Файл (SublimeTmpl)",
+                "children":
+                [
+                    {
+                        "id": "project",
+                        "caption": "Специфика Проекта",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "project"
+                        }
+                    },
+                    {
+                        "id": "html",
+                        "caption": "HTML",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "html"
+                        }
+                    },
+                    {
+                        "id": "sh",
+                        "caption": "sh",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "sh"
+                        }
+                    },
+                    {
+                        "id": "js",
+                        "caption": "Javascript",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "js"
+                        }
+                    },
+                    {
+                        "id": "css",
+                        "caption": "CSS",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "css"
+                        }
+                    },
+                    {
+                        "id": "php",
+                        "caption": "PHP",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "php"
+                        }
+                    },
+                    {
+                        "id": "python",
+                        "caption": "python",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "python"
+                        }
+                    },
+                    {
+                        "id": "ruby",
+                        "caption": "ruby",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "ruby"
+                        }
+                    },
+                    {"caption": "-"},
+                    {
+                        "id": "menu",
+                        "command": "open_file",
+                        "args": {"file": "${packages}/SublimeTmpl/Main.sublime-menu"},
+                        "caption": "Меню – По умолчанию"
+                    },
+                    {
+                        "id": "menu",
+                        "command": "open_file",
+                        "args": {"file": "${packages}/User/SublimeTmpl/Main.sublime-menu"},
+                        "caption": "Меню – Пользователь"
+                    }
+                ]
+            }
+        ]
+    }
+]
