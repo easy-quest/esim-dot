@@ -4,7 +4,7 @@
   	# signingkey = 2382E2B4699A9122
 	signingkey = esim.i2p@gmail.com
 [core]
-	excludesFile = /home/ccc/.gitignore
+	excludesFile = $HOME/.gitignore
 [gpg]
 	program = gpg2
 [init]
