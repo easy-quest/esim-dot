@@ -17,6 +17,7 @@ inoremap jk <esc>
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'alker0/chezmoi.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
