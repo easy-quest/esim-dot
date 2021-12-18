@@ -17,13 +17,13 @@ inoremap jk <esc>
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'Lilja/vim-chezmoi'
 Plug 'alker0/chezmoi.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
-
 
 " color schemas
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
@@ -37,6 +37,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
 
+let g:chezmoi = "enabled"
 
 colorscheme gruvbox
 " colorscheme OceanicNext
