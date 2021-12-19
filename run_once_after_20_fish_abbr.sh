@@ -13,3 +13,6 @@ abbr rm 'rm -Rf '
 abbr xx 'chmod +x '
 abbr z 'chezmoi '
 abbr ze 'chezmoi edit --apply '
+abbr pi ".venv/bin/python -m pip install -U $argv"
+
+

@@ -50,10 +50,6 @@ function envrc
   printf "#!/usr/bin/env bash \nsource .venv/bin/activate" > .envrc;direnv allow
 end 
 
-abbr pi ".venv/bin/python -m pip install -U $argv"
-abbr rm "rm -Rf $argv"
-abbr xx "chmod +x $argv"
-
 function ff --description 'Как **, но возвращает только обычные файлы.'
     # Это также игнорирует каталоги .git.
     find . \( -name .git -type d -prune \) -o -type f | \
@@ -64,4 +60,4 @@ set -gx PATH ~/.asdf/bin $PATH
 
 
 alias zz='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+alias datafart='curl --data-binary @- datafart.com'
