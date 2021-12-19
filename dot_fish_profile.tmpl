@@ -16,7 +16,7 @@ set -gx PATH $HOME/.npm-global/bin $PATH
 ## set -Ux FOO bar
 set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
-set -Ux GOPATH $HOME/go/
+set -Ux GOPATH $HOME/go
 set -Ux GOBIN $GOPATH/bin 
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
@@ -38,7 +38,7 @@ set -gx LANG ru_RU.UTF-8
 
 function gp
     set text (uname --operating-system), (date)
-    git add -A;git commit -m "$text";git push $argv;
+    git commit -am "$text";git push $argv;
 end
 
 function venv
