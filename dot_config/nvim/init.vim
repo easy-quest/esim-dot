@@ -17,6 +17,7 @@ inoremap jk <esc>
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'lbrayner/vim-rzip'
 Plug 'Lilja/vim-chezmoi'
 Plug 'alker0/chezmoi.vim'
 Plug 'neovim/nvim-lspconfig'
