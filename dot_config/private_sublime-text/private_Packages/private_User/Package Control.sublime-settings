@@ -6,6 +6,9 @@
 	"installed_packages":
 	[
 		"AutoFileName",
+        "LSP-pyright",
+		"Markdown Code Blocks",
+		"Markdown Extended",
 		"DotENV",
 		"fish",
 		"Gitignore",
