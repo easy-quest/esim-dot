@@ -23,18 +23,18 @@ templates:
     wrap_width: 0
     order: asc
   today:
-    date_format: "%_I:%M%P"
+    date_format: "%H:%M:%S"
     template: "%date: %title %interval%duration%note"
     wrap_width: 0
     order: asc
   last:
-    date_format: "%-I:%M%P on %a"
+    date_format: "%H:%M:%S on %a"
     template: "%title (at %date) %interval%duration%odnote"
-    wrap_width: 88
+    wrap_width: 79
   recent:
     date_format: "%_I:%M%P"
     template: "%shortdate: %title (%section) %interval%duration%note"
-    wrap_width: 88
+    wrap_width: 79
     count: 10
     order: asc
 export_templates:
@@ -42,7 +42,7 @@ export_templates:
   markdown:
 views:
   done:
-    date_format: "%_I:%M%P"
+    date_format: "%H:%M:%S"
     template: "%date | %title%note"
     wrap_width: 0
     section: All
@@ -51,7 +51,7 @@ views:
     tags: done complete cancelled
     tags_bool: OR
   color:
-    date_format: "%F %_I:%M%P"
+    date_format: "%F %H:%M:%S"
     template: "%boldblack%date %boldgreen| %boldwhite%title%default%note"
     wrap_width: 0
     section: Currently
