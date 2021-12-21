@@ -38,7 +38,7 @@ set -gx LANG ru_RU.UTF-8
 
 function gp
     set text (uname --operating-system), (date)
-    git commit -am "$text";git push $argv;
+    git add -A .;git commit -am "$text";git push $argv;
 end
 
 function venv
