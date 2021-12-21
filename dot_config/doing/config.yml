@@ -32,7 +32,7 @@ templates:
     template: "%title (at %date) %interval%duration%odnote"
     wrap_width: 79
   recent:
-    date_format: "%_I:%M%P"
+    date_format: "%H:%M:%S"
     template: "%shortdate: %title (%section) %interval%duration%note"
     wrap_width: 79
     count: 10
