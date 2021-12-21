@@ -5,6 +5,7 @@ set -Ux WWW_HOME https://yandex.ru/news/
 set -Ux GPG_TTY (tty)
 set -Ux EDITOR "subl"
 set -Ux MYVIMRC "~/.vimrc"
+set -Ux BROWSER "yandex-browser-beta"
 
 set -gx PATH $HOME/.local/share/gem/ruby/3.0.0/bin $PATH
 
@@ -17,7 +18,8 @@ set -gx PATH $HOME/.npm-global/bin $PATH
 set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
 set -Ux GOPATH $HOME/go
-set -Ux GOBIN $GOPATH/bin 
+set -Ux GOBIN $GOP
+ATH/bin 
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
 # 配置 GOPROXY 环境变量
