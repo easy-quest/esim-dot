@@ -1,0 +1,64 @@
+---
+plugins:
+  plugin_path: "/home/sss/.config/doing/plugins"
+  command_path: "/home/sss/.config/doing/commands"
+autotag:
+  whitelist: []
+  synonyms: {}
+editors:
+  default: "/usr/bin/nvim"
+  doing_file:
+  config:
+doing_file: "~/what_was_i_doing.md"
+current_section: В настоящий момент
+paginate: true
+never_time: []
+never_finish: []
+timer_format: text
+interval_format: text
+templates:
+  default:
+    date_format: "%Y-%m-%d %H:%M"
+    template: "%date | %title %interval%duration%note"
+    wrap_width: 0
+    order: asc
+  today:
+    date_format: "%_I:%M%P"
+    template: "%date: %title %interval%duration%note"
+    wrap_width: 0
+    order: asc
+  last:
+    date_format: "%-I:%M%P on %a"
+    template: "%title (at %date) %interval%duration%odnote"
+    wrap_width: 88
+  recent:
+    date_format: "%_I:%M%P"
+    template: "%shortdate: %title (%section) %interval%duration%note"
+    wrap_width: 88
+    count: 10
+    order: asc
+export_templates:
+  html:
+  markdown:
+views:
+  done:
+    date_format: "%_I:%M%P"
+    template: "%date | %title%note"
+    wrap_width: 0
+    section: All
+    count: 0
+    order: desc
+    tags: done complete cancelled
+    tags_bool: OR
+  color:
+    date_format: "%F %_I:%M%P"
+    template: "%boldblack%date %boldgreen| %boldwhite%title%default%note"
+    wrap_width: 0
+    section: Currently
+    count: 10
+    order: asc
+marker_tag: flagged
+marker_color: red
+default_tags: []
+tag_sort: name
+include_notes: true
