@@ -5,3 +5,4 @@ export TERM=alacritty
 export MAIL=geary
 export QT_QPA_PLATFORMTHEME="gnome"
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
